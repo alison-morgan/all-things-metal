@@ -1,0 +1,105 @@
+header{
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Michroma', sans-serif;
+    /* background-color: black; */
+    color: white;
+    font-weight: bold
+}
+
+.header-img{
+    /* justify-content: end; */
+    /* margin-left:25%; */
+    float: right;
+} 
+.head-title{
+    float: left;
+    margin-top: 6%;
+}
+
+body{
+    /* background-color: black; */
+    background-image: url(./images/back-alt.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#nav-list{
+    /* background-color: #9eabb8; */
+    height: 100px;
+    clear: both;
+    /* background-image: url(./images/texture.jpeg) */
+}
+
+ul{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+li{
+    margin: 2%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    color: white;
+    list-style-type: none;
+    text-shadow: 2px 2px black;
+}
+
+.carousel-section{
+    margin: 5%;
+    height: 400px;
+}
+
+.carousel{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    background-color: rgba(0,0,0,0.45);
+    text-shadow: 2px 2px black;
+
+}
+
+.ind-slide{
+    margin: auto;
+}
+
+img{
+    display: inline-block;
+    vertical-align: middle;
+    margin: auto;
+    height: 100%;
+    width: 500px;
+    border: 1px solid white;
+}
+
+
+.contact-foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(0,0,0,1);
+
+}
+
+p{
+    margin: 2.5%;
+}
+
+footer{
+    opacity: 1;
+    height: 200px;
+    width: auto;
+    color: white;
+    font-size: 15px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: center;
+    background-color: black;
+}
